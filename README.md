@@ -1,6 +1,7 @@
 # LayoutManager
 
-TODO: Write a plugin description
+## The Official Documentation Site
+http://docs.ckeditor.com/#!/guide/plugin_sdk_intro
 
 ## Configuration
 
