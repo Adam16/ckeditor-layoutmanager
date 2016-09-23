@@ -1,21 +1,23 @@
-# LayoutManager
+# CKEditor layout manager plugin
 
 ## The Official Documentation Site
 http://docs.ckeditor.com/#!/guide/plugin_sdk_intro
 
-## Configuration
+## Code samples for the official CKEditor documentation
+https://github.com/ckeditor/ckeditor-docs-samples
 
-#### config.extraPlugins = "layoutmanager"
+### Configuration
 
-#### config.layoutmanager_loadbootstrap = true/false (false by default - embedded bootstrap.css is not loaded)
-#### config.layoutmanager_allowedContent (all tags are allowed by default)
-#### config.layoutmanager_buttonboxWidth = 58 (the width of each layout-preview button in the dialog)
+    config.extraPlugins = "layoutmanager"
+    config.layoutmanager_loadbootstrap = true/false (false by default - embedded bootstrap.css is not loaded)
+    config.layoutmanager_allowedContent (all tags are allowed by default)
+    config.layoutmanager_buttonboxWidth = 58 (the width of each layout-preview button in the dialog)
 
-#### Name for adding into the toolbar : "LayoutManager"
+Name for adding into the toolbar : "LayoutManager"
 
-## Events
+### Events
 
-layoutmanager:layout-inserted - fired when layout is inserted
+    layoutmanager:layout-inserted - fired when layout is inserted
 
-## Dependencies
+### Dependencies
 https://jquery.com/
